@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nexus Food Intelligence — Cardápio digital, marketing automatizado e inteligência de dados para restaurantes. Aumente seu faturamento com tecnologia.">
+    <meta name="keywords"
+        content="cardápio digital, restaurante, delivery, marketing para restaurantes, inteligência artificial, CRM restaurante">
+    <meta name="author" content="Nexus Food Intelligence">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Nexus Food Intelligence — Seu restaurante mais inteligente">
+    <meta property="og:description"
+        content="Cardápio digital + marketing automatizado + IA para restaurantes. Transforme seu faturamento.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nexusfood.com.br">
+    <meta property="og:image" content="assets/images/og-image.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/tokens.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <title>Nexus Food Intelligence — Cardápio Digital + Inteligência para Restaurantes</title>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Nexus Food Intelligence",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
+    "description": "Plataforma de cardápio digital, marketing automatizado e inteligência de dados para restaurantes.",
+    "offers": [
+      { "@type": "Offer", "name": "Essencial", "price": "200", "priceCurrency": "BRL" },
+      { "@type": "Offer", "name": "Growth", "price": "900", "priceCurrency": "BRL" },
+      { "@type": "Offer", "name": "Intelligence", "price": "2000", "priceCurrency": "BRL" }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+
+    <!-- ============================================
+       NAVBAR
+       ============================================ -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="navbar__inner">
+                <a href="#" class="navbar__logo" aria-label="Nexus Food Intelligence - Home">
+                    <img src="assets/images/logo.png" alt="Nexus Food Intelligence" width="160" height="auto">
+                </a>
+
+                <div class="navbar__links" id="navbar-links">
+                    <a href="#funcionalidades" class="navbar__link">Funcionalidades</a>
+                    <a href="#resultados" class="navbar__link">Resultados</a>
+                    <a href="#planos" class="navbar__link">Planos</a>
+                    <a href="#depoimentos" class="navbar__link">Depoimentos</a>
+                    <a href="#faq" class="navbar__link">FAQ</a>
+                </div>
+
+                <a href="https://wa.me/5547999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Nexus%20Food%20Intelligence."
+                    class="btn btn--primary btn--sm navbar__cta" id="navbar-cta" target="_blank" rel="noopener">
+                    Falar com Consultor
+                </a>
+
+                <button class="navbar__hamburger" id="navbar-hamburger" aria-label="Abrir menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="navbar__mobile-menu" id="navbar-mobile">
+            <a href="#funcionalidades" class="navbar__link">Funcionalidades</a>
+            <a href="#resultados" class="navbar__link">Resultados</a>
+            <a href="#planos" class="navbar__link">Planos</a>
+            <a href="#depoimentos" class="navbar__link">Depoimentos</a>
+            <a href="#faq" class="navbar__link">FAQ</a>
+            <a href="https://wa.me/5547999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Nexus%20Food%20Intelligence."
+                class="btn btn--primary" target="_blank" rel="noopener">
+                Falar com Consultor
+            </a>
+        </div>
+        <div class="navbar__overlay" id="navbar-overlay"></div>
+    </nav>
+
+
+    <!-- ============================================
+       SEÇÃO 1: HERO
+       ============================================ -->
+    <section class="hero section--deep" id="hero">
+        <!-- Background Glow Orbs -->
+        <div class="hero__glow hero__glow--1" aria-hidden="true"></div>
+        <div class="hero__glow hero__glow--2" aria-hidden="true"></div>
+        <div class="hero__glow hero__glow--3" aria-hidden="true"></div>
+
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__badge reveal">
+                    <i data-lucide="sparkles"></i>
+                    <span>Plataforma de Inteligência para Restaurantes</span>
+                </div>
+
+                <h1 class="hero__title reveal reveal-delay-1">
+                    Seu restaurante merece ser mais do que um
+                    <span class="gradient-text">delivery no iFood.</span>
+                </h1>
+
+                <p class="hero__subtitle reveal reveal-delay-2">
+                    Cardápio digital personalizado + marketing inteligente + dados que aumentam seu faturamento. Tudo em
+                    um só lugar.
+                </p>
+
+                <div class="hero__ctas reveal reveal-delay-3">
+                    <a href="https://wa.me/5547999999999?text=Olá!%20Quero%20agendar%20uma%20demonstração%20do%20Nexus%20Food."
+                        class="btn btn--gradient btn--lg" target="_blank" rel="noopener" id="hero-cta-primary">
+                        <i data-lucide="message-circle"></i>
+                        Agendar Demonstração Gratuita
+                    </a>
+                    <a href="#funcionalidades" class="btn btn--ghost btn--lg" id="hero-cta-secondary">
+                        <i data-lucide="play-circle"></i>
+                        Ver o Nexus em Ação
+                    </a>
+                </div>
+
+                <div class="hero__trust reveal reveal-delay-4">
+                    <div class="hero__trust-item">
+                        <i data-lucide="users"></i>
+                        <span><strong>100+</strong> restaurantes ativos</span>
+                    </div>
+                    <div class="hero__trust-item">
+                        <i data-lucide="map-pin"></i>
+                        <span><strong>15+</strong> cidades atendidas</span>
+                    </div>
+                    <div class="hero__trust-item">
+                        <i data-lucide="trending-up"></i>
+                        <span><strong>+35%</strong> ticket médio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       SEÇÃO 2: PROBLEMA / DOR
+       ============================================ -->
+    <section class="section section--light" id="problema">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__overline">O problema</span>
+                <h2 class="section__title" style="color: var(--text-on-light);">
+                    O iFood cobra até <span class="gradient-text">27% de comissão.</span> Seus dados ficam com eles.
+                </h2>
+                <p class="section__subtitle">
+                    Enquanto isso, você não sabe quem são seus clientes, o que mais vendem, nem como aumentar o ticket
+                    médio.
+                </p>
+            </div>
+
+            <div class="grid grid-2">
+                <div class="pain-card reveal reveal-delay-1">
+                    <div class="pain-card__icon">
+                        <i data-lucide="dollar-sign"></i>
+                    </div>
+                    <h3 class="pain-card__title">Comissões que devoram seu lucro</h3>
+                    <p class="pain-card__text">Você paga de 12% a 27% de comissão por cada pedido no iFood. Em um mês
+                        com R$ 30 mil de vendas, são até R$ 8.100 que você perde.</p>
+                </div>
+
+                <div class="pain-card reveal reveal-delay-2">
+                    <div class="pain-card__icon">
+                        <i data-lucide="lock"></i>
+                    </div>
+                    <h3 class="pain-card__title">Seus clientes não são seus</h3>
+                    <p class="pain-card__text">O iFood guarda o nome, telefone e histórico de pedidos dos seus clientes.
+                        Você não pode contatar, fidelizar ou fazer campanhas próprias.</p>
+                </div>
+
+                <div class="pain-card reveal reveal-delay-3">
+                    <div class="pain-card__icon">
+                        <i data-lucide="bar-chart-3"></i>
+                    </div>
+                    <h3 class="pain-card__title">Ticket médio estagnado</h3>
+                    <p class="pain-card__text">Sem inteligência de dados, você não sabe quais pratos dão mais margem,
+                        quais combinações funcionam, ou como fazer upsell inteligente.</p>
+                </div>
+
+                <div class="pain-card reveal reveal-delay-4">
+                    <div class="pain-card__icon">
+                        <i data-lucide="target"></i>
+                    </div>
+                    <h3 class="pain-card__title">Marketing no achismo</h3>
+                    <p class="pain-card__text">Posta no Instagram "quando dá", não sabe o ROI, não tem estratégia de
+                        aquisição. Gasta dinheiro com anúncio sem saber se funciona.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       SEÇÃO 3: SOLUÇÃO
+       ============================================ -->
+    <section class="section section--dark" id="solucao">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__overline">A solução</span>
+                <h2 class="section__title">
+                    O Nexus é o <span class="gradient-text">hub de inteligência</span> que seu restaurante precisa.
+                </h2>
+                <p class="section__subtitle">
+                    Cardápio digital + aquisição de clientes + CRM + IA — tudo em um só lugar, com setup simplificado.
+                </p>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="pillar-card reveal reveal-delay-1">
+                    <div class="pillar-card__icon">
+                        <i data-lucide="utensils"></i>
+                    </div>
+                    <h3 class="pillar-card__title">Cardápio Digital</h3>
+                    <p class="pillar-card__text">Menu mobile-first, personalizado com a sua marca. Menu Engineering para
+                        destacar itens lucrativos.</p>
+                </div>
+
+                <div class="pillar-card reveal reveal-delay-2">
+                    <div class="pillar-card__icon">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3 class="pillar-card__title">Growth & Aquisição</h3>
+                    <p class="pillar-card__text">Gestão de Meta Ads, criativos profissionais e relatórios de ROI. Traga
+                        clientes novos todo mês.</p>
+                </div>
+
+                <div class="pillar-card reveal reveal-delay-3">
+                    <div class="pillar-card__icon">
+                        <i data-lucide="brain"></i>
+                    </div>
+                    <h3 class="pillar-card__title">Intelligence & CRM</h3>
+                    <p class="pillar-card__text">IA comportamental, automação de marketing via WhatsApp/email, smart
+                        upsell e dashboard estratégico.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================
+       SEÇÃO: PREVIEW / SHOWCASE
+       ============================================ -->
+    <section class="section section--deep showcase" id="preview">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__overline">Visualize seu Sucesso</span>
+                <h2 class="section__title">
+                    Sua marca no <span class="gradient-text">centro da tecnologia.</span>
+                </h2>
+                <p class="section__subtitle">
+                    De um lado, a experiência encantadora para seu cliente. De outro, o controle total nas suas mãos.
+                </p>
+            </div>
+
+            <div class="showcase__inner">
+                <div class="showcase__device showcase__unified reveal reveal-scale">
+                    <div class="showcase__image-container">
+                        <img src="assets/images/IMAGENS DA TELA DO CELULAR E DE ADMINISTRADOR DO CLIENTE.png"
+                            alt="Plataforma Nexus Food Intelligence - App e Gestão" class="showcase__image">
+                    </div>
+                    <span class="showcase__label">Cardápio do Cliente + Seu Painel de Gestão</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       SEÇÃO 4: FUNCIONALIDADES (Tabs)
+       ============================================ -->
+    <section class="section section--light" id="funcionalidades">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__overline" style="color: var(--accent);">Funcionalidades</span>
+                <h2 class="section__title" style="color: var(--text-on-light);">
+                    Tudo que você precisa para <span class="gradient-text">vender mais e melhor.</span>
+                </h2>
+                <p class="section__subtitle">
+                    Do cardápio inteligente ao marketing automatizado. Explore cada pilar.
+                </p>
+            </div>
+
+            <div class="tabs reveal">
+                <!-- Tab Navigation -->
+                <div class="tabs__nav" role="tablist">
+                    <button class="tabs__btn active" data-tab="cardapio" role="tab" aria-selected="true"
+                        id="tab-cardapio">
+                        <i data-lucide="utensils"></i>
+                        Cardápio Digital
+                    </button>
+                    <button class="tabs__btn" data-tab="growth" role="tab" aria-selected="false" id="tab-growth">
+                        <i data-lucide="trending-up"></i>
+                        Aquisição & Growth
+                    </button>
+                    <button class="tabs__btn" data-tab="intelligence" role="tab" aria-selected="false"
+                        id="tab-intelligence">
+                        <i data-lucide="brain"></i>
+                        Inteligência & CRM
+                    </button>
+                    <button class="tabs__btn" data-tab="automacao" role="tab" aria-selected="false" id="tab-automacao">
+                        <i data-lucide="settings"></i>
+                        Automação
+                    </button>
+                </div>
+
+                <!-- Tab: Cardápio -->
+                <div class="tabs__panel active" data-panel="cardapio" role="tabpanel" aria-labelledby="tab-cardapio">
+                    <div class="grid grid-3">
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="smartphone"></i></div>
+                            <h4 class="feature-card__title">Interface Mobile-First</h4>
+                            <p class="feature-card__text">Cardápio responsivo e bonito que funciona perfeitamente em
+                                qualquer dispositivo.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="bar-chart-2"></i></div>
+                            <h4 class="feature-card__title">Menu Engineering</h4>
+                            <p class="feature-card__text">Destaque automático dos pratos mais lucrativos. Preços e
+                                posições inteligentes.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="heart"></i></div>
+                            <h4 class="feature-card__title">Favoritos & Populares</h4>
+                            <p class="feature-card__text">Seção de mais vendidos e favoritos do cliente, gerando
+                                recompra automática.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="palette"></i></div>
+                            <h4 class="feature-card__title">Personalização Total</h4>
+                            <p class="feature-card__text">Cores, logo, fotos e categorias do seu jeito. Cardápio com a
+                                cara do seu restaurante.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="shopping-cart"></i></div>
+                            <h4 class="feature-card__title">Pedidos Integrados</h4>
+                            <p class="feature-card__text">Delivery e retirada integrados. Pedidos chegam direto no
+                                WhatsApp ou painel.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="qr-code"></i></div>
+                            <h4 class="feature-card__title">QR Code na Mesa</h4>
+                            <p class="feature-card__text">Atendimento presencial com QR code. Cliente pede direto do
+                                celular.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab: Growth -->
+                <div class="tabs__panel" data-panel="growth" role="tabpanel" aria-labelledby="tab-growth">
+                    <div class="grid grid-3">
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="megaphone"></i></div>
+                            <h4 class="feature-card__title">Gestão de Anúncios</h4>
+                            <p class="feature-card__text">Campanhas profissionais no Instagram e Facebook. Setup,
+                                otimização e monitoramento.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="image"></i></div>
+                            <h4 class="feature-card__title">Criativos Profissionais</h4>
+                            <p class="feature-card__text">4 peças criativas por mês para seus anúncios. Design que
+                                converte.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="line-chart"></i></div>
+                            <h4 class="feature-card__title">Relatórios de Performance</h4>
+                            <p class="feature-card__text">ROI, custo por lead, alcance e conversões. Dados claros para
+                                tomar decisões.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="users"></i></div>
+                            <h4 class="feature-card__title">Aquisição de Clientes</h4>
+                            <p class="feature-card__text">Estratégias para trazer clientes novos todo mês, direto para
+                                seu canal próprio.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="zap"></i></div>
+                            <h4 class="feature-card__title">Estratégia de Crescimento</h4>
+                            <p class="feature-card__text">Plano personalizado de growth para escalar seu faturamento mês
+                                a mês.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="target"></i></div>
+                            <h4 class="feature-card__title">Segmentação Inteligente</h4>
+                            <p class="feature-card__text">Anúncios direcionados para o público certo, no raio certo, no
+                                momento certo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab: Intelligence -->
+                <div class="tabs__panel" data-panel="intelligence" role="tabpanel" aria-labelledby="tab-intelligence">
+                    <div class="grid grid-3">
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="scan-search"></i></div>
+                            <h4 class="feature-card__title">Análise Comportamental</h4>
+                            <p class="feature-card__text">Entenda o que seus clientes pedem, quando pedem e quanto
+                                gastam. Padrões em tempo real.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="mail"></i></div>
+                            <h4 class="feature-card__title">Automação de Marketing</h4>
+                            <p class="feature-card__text">Campanhas automáticas via WhatsApp e email baseadas em
+                                comportamento do cliente.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="sparkles"></i></div>
+                            <h4 class="feature-card__title">Smart Upsell com IA</h4>
+                            <p class="feature-card__text">Sugestões inteligentes de complementos e combos que aumentam o
+                                ticket médio.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="layout-dashboard"></i></div>
+                            <h4 class="feature-card__title">Dashboard Estratégico</h4>
+                            <p class="feature-card__text">Visão consolidada de vendas, clientes, campanhas e ROI em um
+                                só lugar.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="user-check"></i></div>
+                            <h4 class="feature-card__title">CRM Integrado</h4>
+                            <p class="feature-card__text">Cadastro completo de clientes com histórico, preferências e
+                                score de engajamento.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="shield-check"></i></div>
+                            <h4 class="feature-card__title">Consultoria de Dados</h4>
+                            <p class="feature-card__text">Especialista dedicado para interpretar seus dados e sugerir
+                                ações estratégicas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab: Automação -->
+                <div class="tabs__panel" data-panel="automacao" role="tabpanel" aria-labelledby="tab-automacao">
+                    <div class="grid grid-3">
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="rocket"></i></div>
+                            <h4 class="feature-card__title">Onboarding Guiado</h4>
+                            <p class="feature-card__text">Setup completo do seu cardápio com fotos, categorias e
+                                integrações. Sem esforço técnico.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="refresh-cw"></i></div>
+                            <h4 class="feature-card__title">Otimização Contínua</h4>
+                            <p class="feature-card__text">Monitoramento e ajustes regulares para manter tudo funcionando
+                                no máximo desempenho.</p>
+                        </div>
+                        <div class="feature-card">
+                            <div class="feature-card__icon"><i data-lucide="gauge"></i></div>
+                            <h4 class="feature-card__title">Monitoramento de ROI</h4>
+                            <p class="feature-card__text">Acompanhe em tempo real o retorno de cada real investido em
+                                marketing e tecnologia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       SEÇÃO 5: RESULTADOS / NÚMEROS
+       ============================================ -->
+    <section class="section section--dark" id="resultados">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__overline">Resultados</span>
+                <h2 class="section__title">
+                    Números que <span class="gradient-text">falam por si.</span>
+                </h2>
+                <p class="section__subtitle">
+                    Resultados reais de restaurantes que usam o Nexus Food Intelligence.
+                </p>
+            </div>
+
+            <div class="grid grid-4">
+                <div class="stat-card reveal reveal-delay-1">
+                    <div class="stat-card__icon"><i data-lucide="trending-up"></i></div>
+                    <div class="stat-card__number" data-counter="35" data-suffix="%">0%</div>
+                    <div class="stat-card__label">Aumento no ticket médio</div>
+                </div>
+
+                <div class="stat-card reveal reveal-delay-2">
+                    <div class="stat-card__icon"><i data-lucide="repeat"></i></div>
+                    <div class="stat-card__number" data-counter="60" data-suffix="%">0%</div>
+                    <div class="stat-card__label">Taxa de retenção de clientes</div>
+                </div>
+
+                <div class="stat-card reveal reveal-delay-3">
+                    <div class="stat-card__icon"><i data-lucide="clock"></i></div>
+                    <div class="stat-card__number" data-counter="48" data-suffix="h">0h</div>
+                    <div class="stat-card__label">Para ter seu cardápio no ar</div>
+                </div>
+
+                <div class="stat-card reveal reveal-delay-4">
+                    <div class="stat-card__icon"><i data-lucide="dollar-sign"></i></div>
+                    <div class="stat-card__number" data-counter="0" data-suffix="%" data-prefix="">0%</div>
+                    <div class="stat-card__label">Taxas sobre vendas</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       SEÇÃO 6: PLANOS E PREÇOS
+       ============================================ -->
+    <section class="section section--light" id="planos">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__overline" style="color: var(--accent);">Planos</span>
+                <h2 class="section__title" style="color: var(--text-on-light);">
+                    Escolha o plano ideal para o <span class="gradient-text">momento do seu restaurante.</span>
+                </h2>
+                <p class="section__subtitle">
+                    Comece simples e escale conforme cresce. Sem taxas sobre vendas. Sem surpresas.
+                </p>
+            </div>
+
+            <div class="grid grid-3 reveal">
+                <!-- Plano Essencial -->
+                <div class="pricing-card pricing-card--basic">
+                    <div class="pricing-card__name">Essencial</div>
+                    <div class="pricing-card__price">R$ 200</div>
+                    <div class="pricing-card__period">a partir de / mês</div>
+                    <div class="pricing-card__impl">Implementação: R$ 500</div>
+
+                    <div class="pricing-card__features">
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Cardápio Digital Personalizado
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Sistema de Pedidos (Delivery & Retirada)
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Integração WhatsApp
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Gestão de Produtos & Categorias
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Suporte Técnico
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--excluded">
+                            <i data-lucide="x"></i> Gestão de Tráfego Pago
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--excluded">
+                            <i data-lucide="x"></i> Criativos Mensais
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--excluded">
+                            <i data-lucide="x"></i> CRM & IA
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5547999999999?text=Olá!%20Tenho%20interesse%20no%20plano%20Essencial%20do%20Nexus%20Food."
+                        class="btn btn--secondary" target="_blank" rel="noopener" id="cta-essencial">
+                        Quero o Essencial
+                    </a>
+                </div>
+
+                <!-- Plano Growth (Destaque) -->
+                <div class="pricing-card pricing-card--popular">
+                    <div class="pricing-badge">⭐ Mais Popular</div>
+                    <div class="pricing-card__name">Growth</div>
+                    <div class="pricing-card__price">R$ 900</div>
+                    <div class="pricing-card__period">/ mês</div>
+                    <div class="pricing-card__impl">Implementação: R$ 800</div>
+
+                    <div class="pricing-card__features">
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Tudo do Essencial
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Gestão de Tráfego Pago (Meta Ads)
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Setup de Campanhas de Anúncios
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> 4 Criativos Profissionais / mês
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Relatórios de Performance
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Estratégia de Crescimento
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--excluded">
+                            <i data-lucide="x"></i> CRM Integrado
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--excluded">
+                            <i data-lucide="x"></i> Automação com IA
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5547999999999?text=Olá!%20Tenho%20interesse%20no%20plano%20Growth%20do%20Nexus%20Food."
+                        class="btn btn--gradient" target="_blank" rel="noopener" id="cta-growth">
+                        Quero o Growth
+                    </a>
+                </div>
+
+                <!-- Plano Intelligence -->
+                <div class="pricing-card pricing-card--premium">
+                    <div class="pricing-card__name">Intelligence</div>
+                    <div class="pricing-card__price">R$ 2.000</div>
+                    <div class="pricing-card__period">/ mês</div>
+                    <div class="pricing-card__impl">Implementação: R$ 1.500</div>
+
+                    <div class="pricing-card__features">
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Tudo do Growth
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Consultoria de Dados & Marketing
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> CRM Integrado
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Automação com IA
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> IA no Cardápio (upsell, comportamento)
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Dashboard Estratégico
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Estratégia Avançada de Crescimento
+                        </div>
+                        <div class="pricing-card__feature pricing-card__feature--included">
+                            <i data-lucide="check"></i> Especialista Dedicado
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5547999999999?text=Olá!%20Tenho%20interesse%20no%20plano%20Intelligence%20do%20Nexus%20Food."
+                        class="btn btn--primary" target="_blank" rel="noopener" id="cta-intelligence">
+                        Quero o Intelligence
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       SEÇÃO 7: DEPOIMENTOS
+       ============================================ -->
+    <section class="section section--dark" id="depoimentos">
+        <div class="container">
+            <div class="section__header reveal">
+                <span class="section__overline">Depoimentos</span>
+                <h2 class="section__title">
+                    O que nossos clientes <span class="gradient-text">dizem sobre nós.</span>
+                </h2>
+            </div>
+
+            <div class="grid grid-3">
+                <div class="testimonial-card reveal reveal-delay-1">
+                    <div class="testimonial-card__stars">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i
+                            data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-card__quote">"Depois do Nexus, nosso ticket médio subiu 40% em 3 meses. A
+                        integração com WhatsApp mudou nosso atendimento completamente."</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">RC</div>
+                        <div>
+                            <div class="testimonial-card__name">Roberto Costa</div>
+                            <div class="testimonial-card__role">Dono — Restaurante Sabor & Arte, Blumenau</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal reveal-delay-2">
+                    <div class="testimonial-card__stars">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i
+                            data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-card__quote">"Saímos de 100% iFood para ter 60% dos pedidos no nosso canal
+                        próprio. A economia nas comissões é gigante."</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">AS</div>
+                        <div>
+                            <div class="testimonial-card__name">Ana Silva</div>
+                            <div class="testimonial-card__role">Sócia — Cantina Bella Vita, Itajaí</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card reveal reveal-delay-3">
+                    <div class="testimonial-card__stars">
+                        <i data-lucide="star"></i><i data-lucide="star"></i><i data-lucide="star"></i><i
+                            data-lucide="star"></i><i data-lucide="star"></i>
+                    </div>
+                    <p class="testimonial-card__quote">"A IA do Nexus sugeriu combos que eu nunca pensei. O resultado?
+                        Nosso combo mais vendido hoje foi ideia da plataforma."</p>
+                    <div class="testimonial-card__author">
+                        <div class="testimonial-card__avatar">MO</div>
+                        <div>
+                            <div class="testimonial-card__name">Marcos Oliveira</div>
+                            <div class="testimonial-card__role">Chef/Proprietário — Grill House, Florianópolis</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       SEÇÃO 8: FAQ
+       ============================================ -->
+    <section class="section section--light" id="faq">
+        <div class="container container--narrow">
+            <div class="section__header reveal">
+                <span class="section__overline" style="color: var(--accent);">FAQ</span>
+                <h2 class="section__title" style="color: var(--text-on-light);">
+                    Ainda tem <span class="gradient-text">dúvidas?</span>
+                </h2>
+                <p class="section__subtitle">
+                    As perguntas mais comuns dos nossos clientes.
+                </p>
+            </div>
+
+            <div class="reveal">
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Funciona para delivery e presencial?</span>
+                        <i data-lucide="chevron-down" class="faq-chevron"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! O Nexus funciona tanto para delivery quanto para atendimento presencial. Você pode usar
+                            QR Code nas mesas para pedidos presenciais e o cardápio online para delivery e retirada.
+                            Tudo integrado em um único sistema.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Preciso de equipe técnica para implementar?</span>
+                        <i data-lucide="chevron-down" class="faq-chevron"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não! Nós cuidamos de todo o setup técnico para você. O onboarding inclui configuração do
+                            cardápio, personalização visual, integração com WhatsApp e treinamento da sua equipe. Você
+                            só precisa nos fornecer as informações do seu negócio.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Quanto tempo leva para implementar?</span>
+                        <i data-lucide="chevron-down" class="faq-chevron"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>O plano Essencial fica pronto em até 48 horas. Os planos Growth e Intelligence levam de 5 a 7
+                            dias úteis, pois incluem setup de campanhas, criativos e integrações avançadas. Durante esse
+                            período, você já pode começar a receber pedidos.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Posso continuar usando o iFood ao mesmo tempo?</span>
+                        <i data-lucide="chevron-down" class="faq-chevron"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Com certeza! O Nexus não substitui o iFood — ele complementa. A estratégia é ter seu canal
+                            próprio como principal e usar o iFood para conquistar novos clientes. Gradualmente, você
+                            migra seus clientes fiéis para o canal próprio, economizando nas comissões.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Tem contrato de fidelidade?</span>
+                        <i data-lucide="chevron-down" class="faq-chevron"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não! Nossos planos são mensais e sem fidelidade. Você pode cancelar quando quiser.
+                            Acreditamos que a qualidade do nosso serviço é o que mantém nossos clientes — não um
+                            contrato prendendo você.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" aria-expanded="false">
+                        <span>Como funciona a Inteligência Artificial?</span>
+                        <i data-lucide="chevron-down" class="faq-chevron"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No plano Intelligence, a IA analisa o comportamento dos seus clientes — o que pedem, quando
+                            pedem, ticket médio, frequência — e sugere automaticamente ações: combos inteligentes,
+                            promoções segmentadas, upsell personalizado e campanhas automatizadas via WhatsApp. Tudo
+                            isso funciona no piloto automático.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       SEÇÃO 9: CTA FINAL
+       ============================================ -->
+    <section class="section section--deep" id="cta-final">
+        <div class="container">
+            <div class="cta-final">
+                <div class="cta-final__glow" aria-hidden="true"></div>
+
+                <div style="position: relative; z-index: 2;">
+                    <span class="section__overline reveal">Comece agora</span>
+                    <h2 class="cta-final__title reveal reveal-delay-1">
+                        Pronto para transformar seu <span class="gradient-text">restaurante?</span>
+                    </h2>
+                    <p class="cta-final__subtitle reveal reveal-delay-2">
+                        Agende uma demonstração gratuita e veja como o Nexus pode aumentar seu faturamento.
+                        Sem compromisso, sem cartão de crédito.
+                    </p>
+                    <div class="reveal reveal-delay-3">
+                        <a href="https://wa.me/5547999999999?text=Olá!%20Quero%20agendar%20uma%20demonstração%20gratuita%20do%20Nexus%20Food%20Intelligence."
+                            class="btn btn--gradient btn--lg" target="_blank" rel="noopener" id="cta-final-btn">
+                            <i data-lucide="message-circle"></i>
+                            Agendar Demonstração Gratuita
+                        </a>
+                    </div>
+                    <p class="reveal reveal-delay-4"
+                        style="margin-top: var(--space-4); font-size: var(--text-sm); color: var(--text-muted-dark);">
+                        🔒 Vagas limitadas para implementação este mês
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================
+       FOOTER
+       ============================================ -->
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <!-- Brand -->
+                <div class="footer__brand">
+                    <a href="#" class="footer__brand-logo">
+                        <img src="assets/images/logo.png" alt="Nexus Food Intelligence" width="140" height="auto">
+                    </a>
+                    <p class="footer__brand-text">
+                        Transformando restaurantes em negócios inteligentes com tecnologia, dados e automação.
+                    </p>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h4 class="footer__column-title">Produto</h4>
+                    <a href="#funcionalidades" class="footer__link">Funcionalidades</a>
+                    <a href="#planos" class="footer__link">Planos e Preços</a>
+                    <a href="#resultados" class="footer__link">Resultados</a>
+                    <a href="#faq" class="footer__link">FAQ</a>
+                </div>
+
+                <!-- Empresa -->
+                <div>
+                    <h4 class="footer__column-title">Empresa</h4>
+                    <a href="https://www.nexusfood.com.br" class="footer__link" target="_blank" rel="noopener">Acessar
+                        Sistema</a>
+                    <a href="#depoimentos" class="footer__link">Depoimentos</a>
+                    <a href="https://wa.me/5547999999999" class="footer__link" target="_blank"
+                        rel="noopener">Suporte</a>
+                </div>
+
+                <!-- Contato -->
+                <div>
+                    <h4 class="footer__column-title">Contato</h4>
+                    <div class="footer__contact-item">
+                        <i data-lucide="message-circle"></i>
+                        <a href="https://wa.me/5547999999999" target="_blank" rel="noopener">WhatsApp</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <i data-lucide="mail"></i>
+                        <span>contato@nexusfood.com.br</span>
+                    </div>
+                    <div class="footer__contact-item">
+                        <i data-lucide="map-pin"></i>
+                        <span>Blumenau, SC — Brasil</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2026 Nexus Food Intelligence. Todos os direitos reservados.</p>
+                <p class="footer__copyright">Feito com 💚 em Blumenau, SC</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ============================================
+       WHATSAPP FLOAT + BACK TO TOP
+       ============================================ -->
+    <a href="https://wa.me/5547999999999?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20o%20Nexus%20Food%20Intelligence."
+        class="whatsapp-float" target="_blank" rel="noopener" aria-label="Falar pelo WhatsApp" id="whatsapp-float">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z" />
+            <path
+                d="M12 0C5.373 0 0 5.373 0 12c0 2.625.846 5.059 2.284 7.034L.789 23.492a.5.5 0 00.627.616l4.584-1.405A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-2.239 0-4.332-.726-6.033-1.96l-.424-.312-2.732.837.875-2.65-.345-.448A9.96 9.96 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" />
+        </svg>
+    </a>
+
+    <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+        <i data-lucide="arrow-up"></i>
+    </button>
+
+
+    <!-- ============================================
+       SCRIPTS
+       ============================================ -->
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+
+    <!-- JS Modules -->
+    <script src="js/navbar.js"></script>
+    <script src="js/tabs.js"></script>
+    <script src="js/accordion.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
