@@ -1139,8 +1139,15 @@
 }
 
 .showcase__device--large {
-    max-width: 1200px;
-    /* Aumentado para preencher melhor o espaço */
+    max-width: 100%;
+    /* Permite ocupar toda a largura do container (1200px) */
+    width: 100%;
+}
+
+.showcase__device--large .showcase__image-container {
+    padding: var(--space-2);
+    /* Reduz um pouco o padding interno para a imagem brilhar mais */
+    width: 100%;
 }
 
 .showcase__image-container {
