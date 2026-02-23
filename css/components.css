@@ -1121,7 +1121,7 @@
 .showcase__inner {
     display: flex;
     flex-direction: column;
-    gap: var(--space-12);
+    gap: var(--space-6);
     align-items: center;
 }
 
@@ -1132,6 +1132,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: var(--space-8);
 }
 
 .showcase__unified {
@@ -1162,7 +1163,7 @@
 
 .showcase__label {
     position: absolute;
-    bottom: calc(var(--space-6) * -1);
+    bottom: calc(var(--space-4) * -1);
     left: 50%;
     transform: translateX(-50%);
     background: var(--gradient-accent);
@@ -1173,6 +1174,7 @@
     font-weight: var(--weight-semibold);
     white-space: nowrap;
     box-shadow: 0 10px 20px var(--accent-glow);
+    z-index: 10;
 }
 
 .showcase__info {
